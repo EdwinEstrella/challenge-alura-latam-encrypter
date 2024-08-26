@@ -4,5 +4,5 @@
 
 <h3>Proyecto de encriptado de texto<h3>
 
-- Proyecto en estado beta
+- Proyecto en estado beta (Inconcluso)
 
