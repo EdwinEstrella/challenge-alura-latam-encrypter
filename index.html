@@ -10,24 +10,28 @@
 
 <body>
     <header>
-        <nav>
-            <h1>Encriptador de Texto</h1>
+        <img src="assets/Logo.png" alt="logo alura">
+        <nav class="header__menu">
+            <a class="header__menu__link" href="index.html">Inicio</a>
+            <a class="header__menu__link" href="index.html">desarrollador</a>
         </nav>
     </header>
     <main>
         <section class="container">
             <input type="text" id="textInput" class="container__input" placeholder="Ingrese el texto aquí">
             <div class="container__buttons">
-                <button id="encryptButton">Encriptar</button>
-                <button id="decryptButton">Desencriptar</button>
+                <button class="boton__encriptar" id="encryptButton">Encriptar</button>
+                <button class="boton__desencriptar" id="decryptButton">Desencriptar</button>
             </div>
-            <textarea id="resultOutput" class="container__output" placeholder="Resultado aparecerá aquí" readonly></textarea>
+            <textarea id="resultOutput" class="container__output" placeholder="Resultado aparecerá aquí"
+                readonly></textarea>
         </section>
+        <!-- <img class="imagen__looking" src="assets/Muñeco.png" alt="imagen mirando diamante con lupa"> -->
     </main>
     <footer>
         <p>Herramienta desarrollada por Edwin Estrella</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
