@@ -32,8 +32,7 @@ body {
 }
 
 .header__menu {
-    display: flex;
-    gap: 80px; 
+    display: flex; 
 }
 
 .header__menu__link {
@@ -60,7 +59,6 @@ body {
     max-width: 100%;
     flex-direction: column;
     align-items: flex-start;
-    /* padding: 150px; */
 }
 
 .container__input {
@@ -115,11 +113,30 @@ body {
     border: 1px solid #0A3871;
 }
 
+.resultContainer {
+    position: relative;
+    text-align: center;
+}
+
 .imagen__looking {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.no-message {
+    font-family: var(--fuente-montserrat);
+    color: var(--color-terciario);
+    font-size: var(--fuente-24);
+    margin-top: 180px;
+}
+
+.instructions {
+    font-family: var(--fuente-montserrat);
+    color: var(--color-terciario);
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 
 .footer{
