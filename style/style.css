@@ -116,3 +116,11 @@ body {
     align-self: flex-end;
 }
 
+.footer{
+    background-color: var(--color-terciario);
+    text-align: center;
+    color: var(--color-primario);
+    font-size: var(--fuente-24);    font-family: var(--fuente-montserrat);
+    font-weight: 400;
+    padding: 30px;
+}
