@@ -32,7 +32,7 @@ document.getElementById("encryptButton").addEventListener("click", function () {
         // Paso 5: Mostrar en pantalla el resultado del texto encriptado
         document.getElementById("resultOutput").value = textoEncriptado;
         document.getElementById("resultImage").style.display = "none";
-        document.getElementById("noMessage").style.display = "none";
+        document.getElementById("resultDescription").style.display = "none";
         document.getElementById("resultOutput").style.display = "block";
     } else {
         alert("Por favor ingresa solo letras minúsculas sin acentos ni caracteres especiales.");
@@ -51,7 +51,7 @@ document.getElementById("decryptButton").addEventListener("click", function () {
         // Paso 5: Mostrar en pantalla el resultado del texto desencriptado
         document.getElementById("resultOutput").value = textoDesencriptado;
         document.getElementById("resultImage").style.display = "none";
-        document.getElementById("noMessage").style.display = "none";
+        document.getElementById("resultDescription").style.display = "none";
         document.getElementById("resultOutput").style.display = "block";
     } else {
         alert("Por favor ingresa solo letras minúsculas sin acentos ni caracteres especiales.");
@@ -61,6 +61,5 @@ document.getElementById("decryptButton").addEventListener("click", function () {
 // Mostrar la imagen y el mensaje cuando la página se carga
 window.onload = function() {
     document.getElementById("resultImage").style.display = "block";
-    document.getElementById("noMessage").style.display = "block";
     document.getElementById("resultOutput").style.display = "none";
 };
