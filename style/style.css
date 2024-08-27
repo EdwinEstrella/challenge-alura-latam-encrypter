@@ -22,6 +22,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    height: 100vh;
     /* display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,12 +58,12 @@ body {
     margin-right: 20px;
 } */
 
-main {
+.container__main{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex: 1;
-    width: 100%;
+    margin: 9%;
+  
 }
 
 .container {
@@ -74,8 +75,9 @@ main {
 }
 
 .container__input {
+    color: var(--color-terciario);
     width: 100%;
-    padding: 15px;
+    padding: 50px;
     border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 16px;
@@ -83,10 +85,11 @@ main {
 }
 
 .container__buttons {
-    width: 100%;
     display: flex;
+    width: 100%;
     justify-content: space-between;
     margin-bottom: 20px;
+    padding: 24px;
 }
 
 .boton__encriptar,
@@ -105,7 +108,7 @@ main {
 }
 
 .boton__desencriptar {
-    background-color: #ffffff;
+    background-color: #D8DFE8;
     color: #0A3871;
     border: 1px solid #0A3871;
 }
