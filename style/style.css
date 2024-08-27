@@ -91,7 +91,7 @@ body {
     width: 100%;
     justify-content: space-between;
     margin-bottom: 20px;
-    padding: 24px;
+    padding: 24px 24px;
 }
 
 .boton__encriptar,
@@ -116,8 +116,10 @@ body {
 }
 
 .imagen__looking {
-    max-width: 50%;
-    align-self: flex-end;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .footer{

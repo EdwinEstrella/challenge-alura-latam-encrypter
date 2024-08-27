@@ -25,9 +25,14 @@
                 <button class="boton__desencriptar" id="decryptButton">Desencriptar</button>
             </div>
         </section>
-        <textarea id="resultOutput" class="container__output" placeholder="Ingresa el texto que desees encriptar o desencriptar."
-                readonly></textarea>
-        <!-- <img class="imagen__looking" src="assets/Muñeco.png" alt="imagen mirando diamante con lupa"> -->
+        
+        <div id="resultContainer" style="position: relative;">
+            <img id="resultImage" class="imagen__looking" src="assets/Muñeco.png" alt="imagen mirando diamante con lupa">
+            <h2 class="no-message">Ningún mensaje fue encontrado</h2>
+            <p class="instructions">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <textarea id="resultOutput" class="container__output" readonly></textarea>
+        </div>
+        
     </main>
 
     <footer class="footer">
